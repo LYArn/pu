@@ -10,7 +10,7 @@ python pu.py \
    --test categorical \ #ou binary
    --learning_rate 0.00001 \
    --batch_size 4 \
-   --path_data dataset_trim \
+   --path_data dataset \
    --path_save save \
    --transf binary_adjusted_batch4_lr-05.h5 \ #uniquement pour la classification catégorique
    --epoch 20
